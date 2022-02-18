@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Book.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Gotham-Book.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Gotham-Book.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Gotham-Book.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Gotham-Book.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/Gotham-Bold.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Gotham-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Gotham-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Gotham-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Gotham-Bold.svg') format('svg');
+    /* Legacy iOS */
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Gotham;
+    padding: 0;
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    padding: 16px 0;
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 70%;
+    max-width: 124px;
+}
+
+.banner {
+    margin: 0 auto;
+    display: flex;
+    height: 250px;
+    width: 100%;
+    background-image: url(banner.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.btn-primary {
+    background: #F31624;
+    border-radius: 4px;
+    color: #fff;
+    width: 320px;
+    padding: 16px;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    margin-bottom: 24px;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.container {
+    padding: 0 20px;
+}
+
+.ilustration-img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.wrapper {
+    margin-bottom: 16px;
+}
+
+.bg-pink {
+    background-color: #FEE7E9;
+    padding: 16px 20px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+span,
+p,
+h1,
+h2,
+h3 {
+    color: #465A64;
+    display: block;
+}
+
+.c-red {
+    color: #F31624;
+}
+
+.text-l {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.text-m {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.text-s {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-70 {
+    width: 73%;
+    float: right;
+    margin-bottom: 24px;
+}
+
+.dots-img {
+    position: absolute;
+    margin-left: -98px;
+}
