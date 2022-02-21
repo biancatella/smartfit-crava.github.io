@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,12 +15,11 @@ body {
 header {
     height: 70px;
     display: flex;
-    padding: 16px 0;
+    padding: 16px 20px;
     justify-content: space-between;
 }
 
 .logo-img {
-    width: 70%;
     max-width: 124px;
 }
 
@@ -34,7 +37,7 @@ header {
     background: #F31624;
     border-radius: 4px;
     color: #fff;
-    width: 320px;
+    width: 100%;
     padding: 16px 0;
     text-align: center;
     font-weight: 600;
