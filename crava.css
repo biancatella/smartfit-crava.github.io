@@ -1,36 +1,8 @@
-@font-face {
-    font-family: 'Gotham';
-    src: url('../fonts/Gotham-Book.eot');
-    /* IE9 Compat Modes */
-    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/Gotham-Book.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/Gotham-Book.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/Gotham-Book.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/Gotham-Book.svg') format('svg');
-    /* Legacy iOS */
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gotham';
-    src: url('../fonts/Gotham-Bold.eot');
-    /* IE9 Compat Modes */
-    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/Gotham-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/Gotham-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-    url('../fonts/Gotham-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
-    url('../fonts/Gotham-Bold.svg') format('svg');
-    /* Legacy iOS */
-    font-weight: 600;
-    font-style: normal;
-}
-
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: Gotham;
+    font-family: 'Roboto', sans-serif;
     padding: 0;
     max-width: 100%;
     margin-bottom: 24px;
