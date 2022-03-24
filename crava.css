@@ -136,3 +136,19 @@ h3 {
     position: absolute;
     margin-left: -98px;
 }
+
+.carrossel ul {
+    display: flex;
+    margin-top: 0;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0;
+    margin-bottom: 32px;
+}
+
+.carrossel-card {
+    min-width: 253px;
+    margin: 6px;
+    display: flex;
+    flex-direction: column;
+}
